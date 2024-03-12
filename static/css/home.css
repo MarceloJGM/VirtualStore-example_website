@@ -1,0 +1,161 @@
+.section, .section-2, .section-3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	text-wrap: balance;
+	margin: 20px 0;
+	padding: 20px 0;
+  	font-family: "Ubuntu", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #F8F8FF;
+	background: #0A0A0A;
+}
+
+.section__title, .section__text, .section__title-2, .section__title-3 {
+	padding: 5px 0;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px;
+	gap: 2rem;
+	font-family: "Ubuntu";
+}
+
+.container__box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 170px;
+	height: 170px;
+	border: 2px solid #228B22;
+	border-radius: 20px;
+	color: #00FF00;
+	transition: transform .2s;
+}
+
+.container__box:hover {
+	border: 2px solid #00FF00;
+	transform: scale(1.07);
+	transition: transform .2s;
+}
+
+
+.container__box.zero {
+	background-image: url(https://www.mundodeportivo.com/alfabeta/hero/2022/07/Torre-Corsair.jpg?width=768&aspect_ratio=16:9&format=nowebp);
+	background-position: center;
+	background-size: cover;
+}
+
+.container__box.one {
+	background-image: url(https://s1.1zoom.me/b5050/686/362492-commander06_1920x1080.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.container__box.two {
+	background-image: url(https://pulsogamer.com.py/img/cms/Promos/2023/blog/tarjetagraifca.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.container__box.three {
+	background-image: url(https://image.benq.com/is/image/benqco/ex3410r-eyecare-night-1?$ResponsivePreset$);
+	background-position: center;
+	background-size: cover;
+}
+
+.container__box.four {
+	background-image: url(https://ergo2play.com/cdn/shop/articles/M314_1080x.jpg?v=1633105598);
+	background-position: center;
+	background-size: cover;
+}
+
+.container__box.five {
+	background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/256/529/rte/Silla%20Gamer%20Micro%20Premium%20Negra%20y%20Roja%20Y-2523%20pcshop%20pergamino%202.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.container__box.six {
+	background-image: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/04/Android-Que-caracteristicas-debe-tener-un-smartphone-gamer-y-que-modelos-debo-considerar-1.png?resize=1280%2C750&quality=80&ssl=1);
+	background-position: center;
+	background-size: cover;
+}
+
+.container__box.seven {
+	background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/04/ps5-3011390.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.container__box.eight {
+	background-image: url(https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2020/03/sharp-tv-55-pulgadas-4k-1901387.jpg?tf=3840x);
+	background-position: center;
+	background-size: cover;
+}
+
+.section__article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-wrap: balance;
+	width: 80%;
+	padding: 10px;
+	margin: 15px;
+	border-radius: 7px;
+	background: #222;
+	gap: 1rem;
+}
+
+.article__img {
+	width: 80px;
+}
+
+.section__users {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 15px;
+	margin: 15px;
+	gap: 3rem;
+}
+
+.user__profile img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	outline: 5px solid #00FF00;
+}
+
+@media only screen and (min-width: 1024px) {
+	.container {
+		max-width: 1200px;
+		gap: 3rem;
+	}
+
+	.container__box {
+		width: 250px;
+		height: 250px;
+	}
+
+
+	.container__box:hover {
+		border: 2px solid #00FF00;
+		transform: scale(1.07);
+		transition: transform .2s;
+	}
+
+	.container__box:active {
+		transform: scale(0.96);
+		transition: transform .2s;
+	}
+}
